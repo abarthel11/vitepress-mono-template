@@ -1,0 +1,13 @@
+{
+  "name": "vitepress-mono-template",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "bun run --filter '*' dev",
+    "build": "bun run --filter '*' build",
+    "docs": "bun run --filter docs dev"
+  }
+}
